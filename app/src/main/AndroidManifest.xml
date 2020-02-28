@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".nasa_image.ImageMainActivity"></activity>
+        <activity android:name=".nasa_earth.EarthMainActivity" />
+        <activity android:name=".bbc.BBCMainActivity" />
+        <activity android:name=".guardian.GuardianMainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

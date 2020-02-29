@@ -1,9 +1,25 @@
 <resources>
     <string name="app_name">CST2335</string>
 
-<!--    First screen buttons-->
+    <!--    First screen buttons-->
     <string name="button_text_guardian">The Guardian News</string>
     <string name="button_text_nasa_image">NASA image of the day</string>
     <string name="button_text_nasa_earth">NASA earth imagery</string>
     <string name="button_text_BBC">BBC news</string>
+
+    <!--    Global -->
+    <string name="other_activities">Other Activities</string>
+
+    <!--    Guardian News strings-->
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="search">Search articles</string>
+    <string name="saved">Saved articles</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_article_title_to_search">Enter article title to search</string>
+    <!--    NASA Image strings-->
+    <!--    NASA Earth strings-->
+    <!--    BBC News strings-->
 </resources>

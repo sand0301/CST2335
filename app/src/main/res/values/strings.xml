@@ -9,16 +9,35 @@
 
     <!--    Global -->
     <string name="other_activities">Other Activities</string>
+    <string name="help">Help</string>
 
     <!--    Guardian News strings-->
     <string name="drawer_open">Open drawer</string>
     <string name="drawer_close">Close drawer</string>
     <string name="search">Search articles</string>
     <string name="saved">Saved articles</string>
+    <string name="article_saved">Article saved</string>
+    <string name="article_deleted">Article deleted</string>
+    <string name="action_save">Save Article</string>
+    <string name="action_delete">Delete Article</string>
+    <string name="article_section">Section:</string>
+    <string name="article_date">Web publication date:</string>
+    <string name="article_url">URL:</string>
+    <string name="article_delete_message">Are you sure you want to delete this article?</string>
+    <string name="article_delete_yes">yes</string>
+    <string name="article_delete_no">no</string>
+    <string name="article_author">Author:</string>
+    <string name="article_version">Version:</string>
+    <string name="article_author_name">Sukhmandeep Singh Sandhu</string>
+    <string name="article_help">1. Click on hamburger icon to open drawer.\n
+2. Select \'Search article\' to search an article.\n
+3. Type the title of an article and click on the search icon to get results.\n
+4. Click on the articles list to view details or save it for later viewing.\n
+5. You can view saved articles by clicking on the \'Saved Articles\'.</string>
+    <string name="article_ok">OK</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="enter_article_title_to_search">Enter article title to search</string>
+    <string name="title_detail">Article Details</string>
     <!--    NASA Image strings-->
     <!--    NASA Earth strings-->
     <!--    BBC News strings-->

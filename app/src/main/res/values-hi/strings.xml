@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335</string>
+
+    <!--    First screen buttons-->
+    <string name="button_text_guardian">The Guardian News</string>
+    <string name="button_text_nasa_image">NASA image of the day</string>
+    <string name="button_text_nasa_earth">NASA earth imagery</string>
+    <string name="button_text_BBC">BBC news</string>
+
+    <!--    Global -->
+    <string name="other_activities">अन्य गतिविधियां</string>
+    <string name="help">मदद</string>
+
+    <!--    Guardian News strings-->
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="search">लेख खोजें</string>
+    <string name="saved">सहेजे गए लेख</string>
+    <string name="article_saved">लेख सहेजा गया</string>
+    <string name="article_deleted">लेख हटा दिया गया</string>
+    <string name="action_save">लेख सहेजें</string>
+    <string name="action_delete">लेख हटाएँ</string>
+    <string name="article_section">अनुभाग:</string>
+    <string name="article_date">वेब प्रकाशन की तारीख:</string>
+    <string name="article_url">लिंक:</string>
+    <string name="article_delete_message">क्या आप वाकई इस लेख को हटाना चाहते हैं?</string>
+    <string name="article_delete_yes">हाँ</string>
+    <string name="article_delete_no">नहीं</string>
+    <string name="article_author">रचयिता:</string>
+    <string name="article_version">संस्करण:</string>
+    <string name="article_author_name">सुखमनदीप सिंह संधू</string>
+    <string name="article_help">1. नेविगेशन ड्रावर खोलने के लिए हैमबर्गर आइकन पर क्लिक करें।\n
+2. एक लेख खोजने के लिए \'लेख खोजें\' का चयन करें।\n
+3. एक लेख का शीर्षक टाइप करें और परिणाम प्राप्त करने के लिए खोज आइकन पर क्लिक करें।\n
+4. विवरण देखने के लिए लेख सूची पर क्लिक करें या बाद में देखने के लिए इसे सहेजें।\n
+5. आप सहेजे गए लेखों को \'सहेजे गए लेख\' पर क्लिक करके देख सकते हैं।</string>
+    <string name="article_ok">ठीक</string>
+
+    <string name="enter_article_title_to_search">खोज करने के लिए लेख शीर्षक दर्ज करें</string>
+    <string name="title_detail">लेख का विवरण</string>
+    <!--    NASA Image strings-->
+    <!--    NASA Earth strings-->
+    <!--    BBC News strings-->
+</resources>

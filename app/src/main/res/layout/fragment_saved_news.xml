@@ -5,10 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".guardian.NewsSavedFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Saved news" />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

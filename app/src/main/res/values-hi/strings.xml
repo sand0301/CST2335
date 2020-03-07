@@ -42,4 +42,9 @@
     <!--    NASA Image strings-->
     <!--    NASA Earth strings-->
     <!--    BBC News strings-->
+    <string name="bbc_drawer_open">Open drawer</string>
+    <string name="bbc_drawer_close">Close drawer</string>
+    <string name="bbc_latest_news">Latest news</string>
+    <string name="bbc_saved_news">Saved news</string>
+    <string name="bbc_author_name">Manjot Kaur Dharni</string>
 </resources>

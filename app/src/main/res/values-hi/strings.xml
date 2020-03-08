@@ -44,7 +44,21 @@
     <!--    BBC News strings-->
     <string name="bbc_drawer_open">Open drawer</string>
     <string name="bbc_drawer_close">Close drawer</string>
-    <string name="bbc_latest_news">Latest news</string>
-    <string name="bbc_saved_news">Saved news</string>
-    <string name="bbc_author_name">Manjot Kaur Dharni</string>
+    <string name="bbc_latest_news">ताज़ा खबर</string>
+    <string name="bbc_saved_news">सहेजे गए समाचार</string>
+    <string name="bbc_author_name">मनजोत कौर धरनी</string>
+    <string name="bbc_button_save">सहेजें</string>
+    <string name="bbc_button_delete">हटाएं</string>
+    <string name="bbc_snack_saved">समाचार सहेजे गए</string>
+    <string name="bbc_snack_deleted">समाचार हटा दिया गया</string>
+    <string name="bbc_toast_last_viewed">यह अंतिम देखा गया लेख है, लेखों की सूची देखने के लिए back दबाएं।</string>
+    <string name="bbc_help">- नेविगेशन ड्रॉअर खोलने के लिए शीर्ष बाएं कोने \'दराज\' आइकन पर क्लिक करें। \n
+- नवीनतम समाचार देखने के लिए \'ताज़ा खबर\' का चयन करें। \n
+- ऑफ़लाइन सहेजे गए समाचार देखने के लिए \'सहेजे गए समाचार\' का चयन करें। \n
+- विवरण देखने के लिए समाचार पर क्लिक करें और इसे ऑफ़लाइन सहेजें या हटाएं। \n
+- अन्य मॉड्यूल देखने के लिए अन्य गतिविधियों पर क्लिक करें।</string>
+    <string name="bbc_got_it">समझ गया</string>
+    <string name="bbc_text_desc">विवरण</string>
+    <string name="bbc_text_pub_date">प्रकाशित तिथि</string>
+    <string name="bbc_text_link">लिंक</string>
 </resources>

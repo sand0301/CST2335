@@ -1,6 +1,12 @@
 package com.example.cst2335.bbc;
 
-public class BBCNewsItem {
+import java.io.Serializable;
+
+/**
+ * Holds the data for the single news item.
+ * This is Marked as serializable to pass the data through intent.
+ * */
+public class BBCNewsItem implements Serializable {
 
     String title;
     String description;

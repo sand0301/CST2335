@@ -40,5 +40,13 @@
     <string name="title_detail">Article Details</string>
     <!--    NASA Image strings-->
     <!--    NASA Earth strings-->
+    <string name="earth_image_search">Search Image</string>
+    <string name="earth_image_fav">Favourites</string>
+    <string name="earth_author_name">Neha</string>
+    <string name="earth_author">Author:</string>
+    <string name="earth_author_version">Version:</string>
+
+    <string name="earth_drawer_open">Open Drawer</string>
+    <string name="earth_drawer_close">Close drawer</string>
     <!--    BBC News strings-->
 </resources>

@@ -41,5 +41,10 @@
     <string name="title_detail">लेख का विवरण</string>
     <!--    NASA Image strings-->
     <!--    NASA Earth strings-->
+    <string name="earth_image_search">Search Image</string>
+    <string name="earth_image_fav">Favourites</string>
+    <string name="earth_author_name">Neha</string>
+    <string name="earth_author">Author:</string>
+    <string name="earth_author_version">Version:</string>
     <!--    BBC News strings-->
 </resources>

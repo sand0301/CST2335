@@ -20,12 +20,16 @@ import com.example.cst2335.guardian.GuardianMainActivity;
 import com.example.cst2335.nasa_image.ImageMainActivity;
 import com.google.android.material.navigation.NavigationView;
 
+/**
+ * Main activity for the Earth Imagery
+ * */
 public class EarthMainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     DrawerLayout earthDrawer;
     Toolbar toolbar;
     NavigationView earthNavDrawer;
 
+    //Search fragment
     EarthSearchFragment earthSearchFragment;
 
     @Override
@@ -43,6 +47,7 @@ public class EarthMainActivity extends AppCompatActivity implements NavigationVi
         earthDrawer.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
 
+        //show search fragment on the screen initially
         earthSearchFragment = new EarthSearchFragment();
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.earthFragmentContainer, earthSearchFragment).commit();
@@ -51,12 +56,18 @@ public class EarthMainActivity extends AppCompatActivity implements NavigationVi
 
     }
 
+    /**
+     * Inflating toolbar menu
+     * */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.earth_toolbar_menu, menu);
         return true;
     }
 
+    /**
+     * Handling actions on menu item click event
+     * */
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -73,16 +84,20 @@ public class EarthMainActivity extends AppCompatActivity implements NavigationVi
                 startActivity(intent3);
                 break;
             case R.id.menuHelp:
+                //showing help dialog
                 showHelp();
                 break;
         }
         return true;
     }
 
+    /**
+     * AlertDialog with message to help the user to use the User Interface
+     * */
     void showHelp() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(getString(R.string.help));
-        builder.setMessage("");
+        builder.setMessage(getString(R.string.earth_help));
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -92,6 +107,9 @@ public class EarthMainActivity extends AppCompatActivity implements NavigationVi
         builder.show();
     }
 
+    /**
+     * To handle click events of the navigation drawer
+     * */
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -117,6 +135,7 @@ public class EarthMainActivity extends AppCompatActivity implements NavigationVi
                 break;
 
         }
+        //close the drawer on each item click
         earthDrawer.closeDrawer(GravityCompat.START);
         return true;
     }

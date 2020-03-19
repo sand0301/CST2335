@@ -2,6 +2,11 @@ package com.example.cst2335.nasa_earth;
 
 import java.io.Serializable;
 
+/**
+ * Java bean class to hold record for each earth image
+ * record
+ * */
+
 public class EarthImage implements Serializable {
     String date;
     String id;

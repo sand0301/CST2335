@@ -6,13 +6,25 @@
     android:orientation="vertical"
     tools:context=".nasa_earth.EarthSearchFragment">
 
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/earth_select_date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/editTextLat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:hint="Enter lat"
+        android:hint="@string/earth_enter_lat"
         android:inputType="numberSigned|numberDecimal" />
 
     <EditText
@@ -21,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:hint="Enter lon"
+        android:hint="@string/earth_enter_lon"
         android:inputType="numberSigned|numberDecimal" />
 
     <Button
@@ -29,13 +41,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Get " />
+        android:text="@string/earth_search" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"

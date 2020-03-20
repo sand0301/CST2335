@@ -40,6 +40,25 @@
     <string name="enter_article_title_to_search">खोज करने के लिए लेख शीर्षक दर्ज करें</string>
     <string name="title_detail">लेख का विवरण</string>
     <!--    NASA Image strings-->
+    <string name="image_hint_search">तारीख़ चुनें</string>
+    <string name="image_button_search">दिन की छवि खोजें</string>
+    <string name="image_detail_title">शीर्षक</string>
+    <string name="image_detail_explanation">विवरण</string>
+    <string name="image_detail_date">दिनांक</string>
+    <string name="image_detail_url">URL</string>
+    <string name="image_author_name">दक्ष</string>
+    <string name="image_okay">ठीक है</string>
+    <string name="image_help">- एक तारीख का चयन करें और छवि का शीर्षक प्राप्त करने के लिए बटन दबाएं।\n
+- छवि और विवरण देखने के लिए शीर्षक (सूची आइटम) पर क्लिक करें।\n
+- आप बाद में देखने के लिए सहेजें बटन दबाकर छवि को गैलरी में सहेज सकते हैं।\n
+- सहेजे गए चित्रों को दिखाने के लिए दराज से सहेजे गए चित्र का चयन करें।</string>
+    <string name="image_search_image">खोजें</string>
+    <string name="image_saved_image">सहेजे गए चित्र</string>
+    <string name="image_saved_success">छवि सफलतापूर्वक सहेजी गई</string>
+    <string name="image_delete_success">छवि को सफलतापूर्वक हटा दिया गया</string>
+    <string name="image_save_img">सहेजें</string>
+    <string name="image_delete_img">हटाएं</string>
+    <string name="image_toast_select_date">कृपया खोज करने के लिए एक तारीख़ चुनें</string>
     <!--    NASA Earth strings-->
     <!--    BBC News strings-->
 </resources>

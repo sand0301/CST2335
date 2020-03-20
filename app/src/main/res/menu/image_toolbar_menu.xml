@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuGuardian"
+        android:icon="@drawable/guardian_logo"
+        android:title="@string/button_text_guardian"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuEarth"
+        android:icon="@drawable/nasa_earth_image"
+        android:title="@string/button_text_nasa_earth"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuBBC"
+        android:icon="@drawable/bbc_news_logo"
+        android:title="@string/button_text_BBC"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuHelp"
+        android:title="@string/help"/>
+</menu>

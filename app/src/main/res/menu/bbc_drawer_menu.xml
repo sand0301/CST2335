@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawerBBCLatestNews"
+            android:title="@string/bbc_latest_news" />
+        <item
+            android:id="@+id/drawerBBCSavedNews"
+            android:title="@string/bbc_saved_news" />
+    </group>
+
+    <item android:title="@string/other_activities">
+        <menu>
+            <item
+                android:id="@+id/drawerMenuGuardian"
+                android:title="@string/button_text_guardian" />
+            <item
+                android:id="@+id/drawerMenuNasaImage"
+                android:title="@string/button_text_nasa_image" />
+            <item
+                android:id="@+id/drawerMenuNasaEarth"
+                android:title="@string/button_text_nasa_earth" />
+        </menu>
+    </item>
+</menu>

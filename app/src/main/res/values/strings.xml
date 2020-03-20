@@ -86,4 +86,24 @@
     <string name="earth_drawer_open">Open Drawer</string>
     <string name="earth_drawer_close">Close drawer</string>
     <!--    BBC News strings-->
+    <string name="bbc_drawer_open">Open drawer</string>
+    <string name="bbc_drawer_close">Close drawer</string>
+    <string name="bbc_latest_news">Latest news</string>
+    <string name="bbc_saved_news">Saved news</string>
+    <string name="bbc_author_name">Manjot Kaur Dharni</string>
+    <string name="bbc_button_save">Save</string>
+    <string name="bbc_button_delete">Delete</string>
+    <string name="bbc_snack_saved">News Saved</string>
+    <string name="bbc_snack_deleted">News Deleted</string>
+    <string name="bbc_toast_last_viewed">This is the last viewed article, press back to view a list of articles.</string>
+    <string name="bbc_help">- Click on the top left corner \'Drawer\' icon to open navigation drawer.\n
+- Select \'Latest news\' to view latest news.\n
+- Select \'Saved news\' to view offline saved news.\n
+- Click on news to view description and save or delete it offline.\n
+- Click on other activities to view other modules.
+    </string>
+    <string name="bbc_got_it">Got it</string>
+    <string name="bbc_text_desc">Description</string>
+    <string name="bbc_text_pub_date">Published date</string>
+    <string name="bbc_text_link">Link</string>
 </resources>

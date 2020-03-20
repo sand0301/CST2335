@@ -38,7 +38,27 @@
 
     <string name="enter_article_title_to_search">Enter article title to search</string>
     <string name="title_detail">Article Details</string>
+
     <!--    NASA Image strings-->
+    <string name="image_hint_search">Select date</string>
+    <string name="image_button_search">Search for Image of the day</string>
+    <string name="image_detail_title">Title</string>
+    <string name="image_detail_explanation">Explanation</string>
+    <string name="image_detail_date">Date</string>
+    <string name="image_detail_url">URL</string>
+    <string name="image_author_name">Daksh</string>
+    <string name="image_okay">OKAY</string>
+    <string name="image_help">- Select a date and press the button to get the title of image.\n
+- Click on the title (list item) to view the image and description.\n
+- You can save the image to gallery by pressing Save button for later viewing.\n
+- Select Saved Images from drawer to show Saved images.</string>
+    <string name="image_search_image">Search</string>
+    <string name="image_saved_image">Saved Images</string>
+    <string name="image_saved_success">Image saved successfully</string>
+    <string name="image_delete_success">Image deleted successfully</string>
+    <string name="image_save_img">Save</string>
+    <string name="image_delete_img">Delete</string>
+    <string name="image_toast_select_date">Please select a date to search</string>
     <!--    NASA Earth strings-->
     <!--    BBC News strings-->
 </resources>

@@ -60,5 +60,30 @@
     <string name="image_delete_img">Delete</string>
     <string name="image_toast_select_date">Please select a date to search</string>
     <!--    NASA Earth strings-->
+    <string name="earth_image_search">Search Image</string>
+    <string name="earth_image_fav">Favourites</string>
+    <string name="earth_author_name">Neha</string>
+    <string name="earth_author">Author:</string>
+    <string name="earth_select_date">Select date</string>
+    <string name="earth_author_version">Version:</string>
+    <string name="earth_search">Search</string>
+    <string name="earth_enter_lat">Enter latitude</string>
+    <string name="earth_enter_lon">Enter longitude</string>
+    <string name="earth_lat">Latitude</string>
+    <string name="earth_lon">Longitude</string>
+    <string name="earth_date">Date</string>
+    <string name="earth_save">Save to Favourites</string>
+    <string name="earth_delete">Delete from Favourites</string>
+    <string name="earth_saved">Saved to favourites</string>
+    <string name="earth_deleted">Deleted from favourites</string>
+    <string name="earth_help">- On the first screen, enter latitude and longitude of location and press \'Search\' button to check availability of image, if the data is available for that location, result will be shown as date and time, tap on it to view detailed information.\n
+- Click on save to save details to favourites.\n
+- Open navigation drawer to view favourites.</string>
+    <string name="earth_ok">OK</string>
+    <string name="earth_error_data">Error getting data!</string>
+    <string name="earth_error">Error: </string>
+
+    <string name="earth_drawer_open">Open Drawer</string>
+    <string name="earth_drawer_close">Close drawer</string>
     <!--    BBC News strings-->
 </resources>

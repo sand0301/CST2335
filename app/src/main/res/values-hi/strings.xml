@@ -60,5 +60,30 @@
     <string name="image_delete_img">हटाएं</string>
     <string name="image_toast_select_date">कृपया खोज करने के लिए एक तारीख़ चुनें</string>
     <!--    NASA Earth strings-->
+    <string name="earth_image_search">छवि के लिए खोजें</string>
+    <string name="earth_image_fav">पसंदीदा</string>
+    <string name="earth_author_name">नेहा</string>
+    <string name="earth_author">रचयिता:</string>
+    <string name="earth_select_date">तारीख़ चुनें</string>
+    <string name="earth_author_version">संस्करण:</string>
+    <string name="earth_search">खोजें</string>
+    <string name="earth_enter_lat">अक्षांश दर्ज करें</string>
+    <string name="earth_enter_lon">देशांतर दर्ज करें</string>
+    <string name="earth_lat">अक्षांश</string>
+    <string name="earth_lon">देशान्तर</string>
+    <string name="earth_date">दिनांक</string>
+    <string name="earth_save">पसंदीदा में सहेजें</string>
+    <string name="earth_delete">पसंदीदा से हटाएं</string>
+    <string name="earth_saved">पसंदीदा में सहेजा गया</string>
+    <string name="earth_deleted">पसंदीदा से हटा दिया गया</string>
+    <string name="earth_help">- पहली स्क्रीन पर, अक्षांश और स्थान का देशांतर दर्ज करें और छवि की उपलब्धता की जांच करने के लिए \'खोज\' बटन दबाएं, यदि डेटा उस स्थान के लिए उपलब्ध है, तो परिणाम दिनांक और समय के रूप में दिखाया जाएगा, विस्तृत देखने के लिए उस पर टैप करें। जानकारी। \n
+- पसंदीदा पर विवरण सहेजने के लिए सहेजें पर क्लिक करें। \n
+- पसंदीदा देखने के लिए नेविगेशन दराज खोलें।</string>
+    <string name="earth_ok">ठीक है</string>
+    <string name="earth_error_data">डेटा प्राप्त करने में त्रुटि!</string>
+    <string name="earth_error">त्रुटि: </string>
+
+    <string name="earth_drawer_open">Open Drawer</string>
+    <string name="earth_drawer_close">Close drawer</string>
     <!--    BBC News strings-->
 </resources>

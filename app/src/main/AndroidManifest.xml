@@ -15,22 +15,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".bbc.BBCDetailNewsActivity"
             android:parentActivityName=".bbc.BBCMainActivity"/>
-        <activity android:name=".nasa_earth.ShowEarthImageActivity"></activity>
         <activity
             android:name=".guardian.ArticleDetailActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".nasa_image.ImageMainActivity" />
         <activity
             android:name=".nasa_earth.EarthMainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".nasa_image.ShowImageActivity"></activity>
         <activity
-            android:name=".guardian.ArticleDetailActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".nasa_image.ImageMainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".nasa_earth.EarthMainActivity" />
         <activity
             android:name=".bbc.BBCMainActivity"
             android:launchMode="singleTop"

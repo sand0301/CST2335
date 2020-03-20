@@ -38,8 +38,53 @@
 
     <string name="enter_article_title_to_search">Enter article title to search</string>
     <string name="title_detail">Article Details</string>
+
     <!--    NASA Image strings-->
+    <string name="image_hint_search">Select date</string>
+    <string name="image_button_search">Search for Image of the day</string>
+    <string name="image_detail_title">Title</string>
+    <string name="image_detail_explanation">Explanation</string>
+    <string name="image_detail_date">Date</string>
+    <string name="image_detail_url">URL</string>
+    <string name="image_author_name">Daksh</string>
+    <string name="image_okay">OKAY</string>
+    <string name="image_help">- Select a date and press the button to get the title of image.\n
+- Click on the title (list item) to view the image and description.\n
+- You can save the image to gallery by pressing Save button for later viewing.\n
+- Select Saved Images from drawer to show Saved images.</string>
+    <string name="image_search_image">Search</string>
+    <string name="image_saved_image">Saved Images</string>
+    <string name="image_saved_success">Image saved successfully</string>
+    <string name="image_delete_success">Image deleted successfully</string>
+    <string name="image_save_img">Save</string>
+    <string name="image_delete_img">Delete</string>
+    <string name="image_toast_select_date">Please select a date to search</string>
     <!--    NASA Earth strings-->
+    <string name="earth_image_search">Search Image</string>
+    <string name="earth_image_fav">Favourites</string>
+    <string name="earth_author_name">Neha</string>
+    <string name="earth_author">Author:</string>
+    <string name="earth_select_date">Select date</string>
+    <string name="earth_author_version">Version:</string>
+    <string name="earth_search">Search</string>
+    <string name="earth_enter_lat">Enter latitude</string>
+    <string name="earth_enter_lon">Enter longitude</string>
+    <string name="earth_lat">Latitude</string>
+    <string name="earth_lon">Longitude</string>
+    <string name="earth_date">Date</string>
+    <string name="earth_save">Save to Favourites</string>
+    <string name="earth_delete">Delete from Favourites</string>
+    <string name="earth_saved">Saved to favourites</string>
+    <string name="earth_deleted">Deleted from favourites</string>
+    <string name="earth_help">- On the first screen, enter latitude and longitude of location and press \'Search\' button to check availability of image, if the data is available for that location, result will be shown as date and time, tap on it to view detailed information.\n
+- Click on save to save details to favourites.\n
+- Open navigation drawer to view favourites.</string>
+    <string name="earth_ok">OK</string>
+    <string name="earth_error_data">Error getting data!</string>
+    <string name="earth_error">Error: </string>
+
+    <string name="earth_drawer_open">Open Drawer</string>
+    <string name="earth_drawer_close">Close drawer</string>
     <!--    BBC News strings-->
     <string name="bbc_drawer_open">Open drawer</string>
     <string name="bbc_drawer_close">Close drawer</string>
